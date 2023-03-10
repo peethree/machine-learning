@@ -1,4 +1,4 @@
-# machine-learning
+# mindhunter
 a script that trains a Decision Tree Classifier on a dataset of murder records
 
 #
