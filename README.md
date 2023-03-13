@@ -11,4 +11,11 @@ a script that trains a Decision Tree Classifier on a dataset of murder records
  
  #
  
- Using this dataset and the model I opted for, it seems there's about a 60% accuracy in predicting the perp based on race
+ Initially I encoded the race categories of victims to integers, but this led to there being an unwanted order in the race categories. I then swapped to one-hot-encoding instead. I later found out that label encoding is only really useful while having two categories, which is not the case here.
+Sadly enough, however, trying different types of encoding didn't help the accuracy of the prediction much. After some reflection, using a classifier tree for the data that I chose to use for the model was never going to perform well since the data itself is very imbalanced. There's a ton of data involving black and white perps and victims, but in comparison very little involving natives or asians. So the model is always going to be biased towards these two classes.
+ 
+ #
+ 
+ In conclusion: using this dataset and the model I opted for, it seems there's about a 60% accuracy in predicting the perp based on race. 
+
+
