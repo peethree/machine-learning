@@ -1,5 +1,5 @@
 # mindhunter
-scripts that train a variety of scikit learning models on a dataset of murder records
+python scripts that train a variety of scikit learning models on a dataset of murder records
 
 #
 
