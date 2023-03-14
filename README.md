@@ -1,9 +1,9 @@
 # mindhunter
-a script that trains a Decision Tree Classifier on a dataset of murder records
+scripts that train a variety of learning models on a dataset of murder records
 
 #
 
- I wanted to go over a murder database after having seen the tv show "Mindhunter" where an FBI agent is convinced the perpetrator must be of black ethnicity when all his victims are black.
+ I wanted to go over a murder data set after having seen the tv show "Mindhunter" where an FBI agent is convinced the perpetrator must be of black ethnicity when all his victims are black.
 
 #
 
@@ -11,11 +11,11 @@ a script that trains a Decision Tree Classifier on a dataset of murder records
  
  #
  
- Initially I encoded the race categories of victims to integers, but this led to there being an unwanted order in the race categories. I then swapped to one-hot-encoding instead. I later found out that label encoding is only really useful while having two categories, which is not the case here.
-Sadly enough, however, trying different types of encoding didn't help the accuracy of the prediction much. After some reflection, using a classifier tree for the data that I chose to use for the model was never going to perform well since the data itself is very imbalanced. There's a ton of data involving black and white perps and victims, but in comparison very little involving natives or asians. So the model is always going to be biased towards these two classes.
+ For the script on the decision tree classifier I initially encoded the race categories of victims to integers, but this led to there being an unwanted order in the race categories. I then swapped to one-hot-encoding instead, this did not alter the accuracy, but it deals with the random order. Label encoding appears to be useful while having two categories, which is not the case here.
+No matter what I do to tinker with the test and train data, the accuracy remains the same. The problem boils down to the data set being imbalanced. There's a ton of data involving black and white perps and victims, but in comparison very little involving natives or asians. So the model is always going to be biased towards these two classes, resulting in poor accuracy. One way to change this would be to remove the races with fewest counts from the test data entirely and just focus on black and white, but I'm not sure how fair that would be.
  
  #
  
- In conclusion: using this dataset and the model I opted for, it seems there's about a 60% accuracy in predicting the perp based on race. 
+ In conclusion: using this dataset and the models I opted for, it seems there's about a 60% accuracy in predicting the perp based on race. 
 
 
