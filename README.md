@@ -8,7 +8,7 @@ python scripts that train a variety of scikit learning models on an FBI data set
  
 #
 
-I wanted to go over a murder data set after having seen the tv show "Mindhunter" where an FBI agent is convinced the perpetrator must be of black ethnicity when all his victims are black. There are many algorithms to choose from on scikit-learn.org. Not too much thought went into picking the algorithms I went with since I was completely clueless about all of it, luckilly a lot of the algorithm models can be fitted in the same fashion. So it's little effort to try out many of them.
+I wanted to have a look for myself after having seen the tv show "Mindhunter" where a special FBI agent is convinced the perpetrator must be of black ethnicity when all his victims are black. There are many algorithms to choose from on scikit-learn.org. Not too much thought went into picking the algorithms I went with since I was completely clueless about all of it, luckilly a lot of the algorithm models can be fitted in the same fashion. So it's little effort to try out many of them.
 Some models seem to compute slightly faster than others but I have yet to measure and compare their performance.
  
  #
