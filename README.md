@@ -1,5 +1,6 @@
 # mindhunter
-python scripts that train a variety of scikit learning models on a dataset of murder records
+python scripts that train a variety of scikit learning models on a dataset of murder records, not too much thought went into picking the algorithms I chose. 
+Some model compute faster than others but I have yet to measure and compare their performance.
 
 #
 
