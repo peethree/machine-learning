@@ -20,6 +20,6 @@ Out of the 4 models I've toyed with, the Gaussian Naive Bayes and the decision t
  
  #
  
- In conclusion: It seems there's about a 60% accuracy in predicting the perp based on race when using the available data in the model on race, but when making certain assumptions we can make the predictions more accurate. 
+ In conclusion: It seems there's about a 60% accuracy in predicting the perp based on race when using all available data to fit the model, but when making certain assumptions we can make the predictions more accurate. 
 
 
