@@ -18,6 +18,8 @@ I then revisited the less represented races and included them in the predictions
 Between different models i toy with differing test- and trainingdata sizes. This might alter the accuracy and duration it takes for the model to make the predictions. If my goal was to figure out which algorithm was the fastest or had the best performance for this problem, I would have kept the circumstances as equal as possible between the models. 
  
  #
+
+ ![graph]([http://url/to/img.png](https://i.imgur.com/0HCmiRv.png)https://i.imgur.com/0HCmiRv.png)
  
  
 
